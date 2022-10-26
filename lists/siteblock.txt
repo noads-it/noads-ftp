@@ -1,11 +1,11 @@
 [Adblock Plus 2.8]
 ! Title: NoAds X Files: HWS Harmful WebSites
-! Version: 202210060625
+! Version: 202210260638
 ! Harmful WebSites blocca siti web potenzialmente dannosi per la tua navigazione
-! Last modified: 06-10-2022
+! Last modified: 26-10-2022
 ! Expires: 2 days
 ! Homepage: https://xfiles.noads.it
-! Blog: https://gioxx.org/tag/abpxfiles
+! Blog: https://go.gioxx.org/noads
 ! Hosting: GitHub.com
 !
 || alhssoon123.ddns.net^
@@ -5186,6 +5186,7 @@
 ||damaschinasfalsas.host^
 ||damiano.modexcommunications.eu^
 ||damnakkitchen.com^
+||damnater.com^
 ||damvdolgdayn.com^
 ||damynghetuanmanh.com^
 ||danaldea.ro^
@@ -6288,6 +6289,7 @@
 ||dodahanghieu.net^
 ||dodhmlaethandi.com^
 ||dodoeshop.com^
+||dodsman.com^
 ||dodstep.cyou^
 ||dogbluemedia.com^
 ||dogemoon.info^
@@ -8740,6 +8742,7 @@
 ||giftingtimes.in^
 ||gifts.santa.merrychristmasgroup.org^
 ||gigatelibertadores.ddns.net^
+||gigeram.com^
 ||gigeveryday.com^
 ||gigolimpet.ac.ug^
 ||gigu.ga^
@@ -11737,6 +11740,7 @@
 ||kyrpdc09.top^
 ||kyvpwu14.top^
 ||kyzocollection.com^
+||l094b2d2.justinstalledpanel.com^
 ||l0lz.co^
 ||l1r.org^
 ||l2-400.com^
@@ -11877,6 +11881,7 @@
 ||lazisnukolomayan.com^
 ||lazovskiphoto.com^
 ||lazylorgdy.cf^
+||lb096418.justinstalledpanel.com^
 ||lbappstr.com^
 ||lccem.com^
 ||lctavano.tk^
@@ -17119,6 +17124,7 @@
 ||pineloautoricambi.com^
 ||pinescop.top^
 ||pinkbabies.net^
+||pinki.cyou^
 ||pinkpanda.pw^
 ||pinkputin.com.ug^
 ||pinkshopeg.com^
@@ -23919,16 +23925,6 @@
 ||zytrox.tk^
 ||zyxonion.xyz^
 ||zzhare12345.hopto.org^
-||zzi.bellevilledc.com^
-||zzlong.xyz^
-||š427.biz^
-427.biz^
-m^
-||zzlong.xyz^
-||š427.biz^
-z^
-||š427.biz^
-re12345.hopto.org^
 ||zzi.bellevilledc.com^
 ||zzlong.xyz^
 ||š427.biz^
