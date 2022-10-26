@@ -1,4 +1,4 @@
-name: NoAds lists FTP update
+name: NoAds lists FTP update TEST
 on:
   schedule:
   - cron: '30 10 * * *'
