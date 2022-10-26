@@ -1,0 +1,31 @@
+name: NoAds lists FTP update
+on:
+  schedule:
+  - cron: '30 10 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  noads_lists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set Timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: ⌚ Set DateTime
+        run: |
+          sh ./sh/datetime.sh
+
+      - uses: actions/checkout@v3
+        with:
+          repository: gioxx/xfiles
+          path: './'
+
+      - name: Where I am?
+        run: |
+          ls
