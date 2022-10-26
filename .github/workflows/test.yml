@@ -39,5 +39,6 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
+          repository: noads-it/noads-ftp
           github_token: ${{ secrets.GHUB_TOKEN }}
           branch: ${{ github.ref }}
