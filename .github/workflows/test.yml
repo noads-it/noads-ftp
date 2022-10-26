@@ -11,22 +11,28 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-
-      - name: Set Timezone
-        uses: szenius/set-timezone@v1.0
-        with:
-          timezoneLinux: "Europe/Rome"
-
-      - name: ⌚ Set DateTime
-        run: |
-          sh ./sh/datetime.sh
-
-      - uses: actions/checkout@v3
         with:
           repository: gioxx/xfiles
           path: './'
 
-      - name: Where I am?
+      - name: Set Timezone ⌚
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: "Europe/Rome"
+
+      - name: Where I am? 🧭
         run: |
           ls
           pwd
+          mkdir lists
+          sh ./sh/datetime.sh
+          cp experimental.txt ./lists/experimental.txt
+          cp facebook.txt ./lists/facebook.txt
+          cp filtri.txt ./lists/filtri.txt
+          cp siteblock.txt ./lists/siteblock.txt
+          cp upd.txt ./lists/upd.txt
+          cp ./fritz/fritz_blacklist.txt ./lists/fritz_blacklist.txt
+          git config --local user.email "114237374+GWall-bot@users.noreply.github.com"
+          git config --local user.name "GWall[bot]"
+          git add lists/*
+          git commit -m "Aggiornamento liste del $checkwebsite" -a
