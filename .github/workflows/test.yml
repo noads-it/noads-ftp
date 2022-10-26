@@ -41,4 +41,3 @@ jobs:
         with:
           repository: noads-it/noads-ftp
           github_token: ${{ secrets.GHUB_TOKEN }}
-          branch: ${{ github.ref }}
