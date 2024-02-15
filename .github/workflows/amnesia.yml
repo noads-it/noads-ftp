@@ -15,7 +15,9 @@ jobs:
       env:
         SECRET_TEST: ${{ secrets.SECRET_TEST}}
       run: |
-        echo $SECRET_TEST >> secrets.txt
+        echo $FTP_PASSWORD >> secrets.txt
+        echo $FTP_SERVER >> secrets.txt
+        echo $FTP_USERNAME >> secrets.txt
 
     - name: Run tmate
       uses: mxschmitt/action-tmate@v3.17
