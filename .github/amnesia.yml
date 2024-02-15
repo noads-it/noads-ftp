@@ -1,0 +1,21 @@
+name: Amnesia
+on: 
+  workflow_dispatch:
+
+jobs:
+  debug:
+    name: Debug
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v4.1.1
+
+    - name: Set up secret file
+      env:
+        SECRET_TEST: ${{ secrets.SECRET_TEST}}
+      run: |
+        echo $SECRET_TEST >> secrets.txt
+
+    - name: Run tmate
+      uses: mxschmitt/action-tmate@v3.17
