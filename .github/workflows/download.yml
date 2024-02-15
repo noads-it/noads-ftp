@@ -33,7 +33,6 @@ jobs:
           branch: ${{ github.ref }}
 
       - name: Copy to FTP 🔌
-        # uses: SamKirkland/FTP-Deploy-Action@v3.1.2-patch
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           ftp-server: ${{ secrets.ftp_server }}
