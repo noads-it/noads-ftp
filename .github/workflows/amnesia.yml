@@ -13,7 +13,9 @@ jobs:
 
     - name: Set up secret file
       env:
-        SECRET_TEST: ${{ secrets.SECRET_TEST}}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD}}
+        FTP_SERVER: ${{ secrets.FTP_SERVER}}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME}}
       run: |
         echo $FTP_PASSWORD >> secrets.txt
         echo $FTP_SERVER >> secrets.txt
